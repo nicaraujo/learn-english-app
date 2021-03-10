@@ -7,71 +7,71 @@
     tools:context=".ui.main.AnimalsFragment">
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/gato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/gato"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintBottom_toTopOf="@+id/macaco"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/cao"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/leao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/leao"
-        app:layout_constraintBottom_toTopOf="@+id/imageView9"
-        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintBottom_toTopOf="@+id/ovelha"
+        app:layout_constraintEnd_toStartOf="@+id/macaco"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/cao" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/cao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:src="@drawable/cao"
-        app:layout_constraintBottom_toTopOf="@+id/imageView8"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintBottom_toTopOf="@+id/leao"
+        app:layout_constraintEnd_toStartOf="@+id/gato"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/ovelha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ovelha"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintEnd_toStartOf="@+id/vaca"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toBottomOf="@+id/leao" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/macaco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/macaco"
-        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintBottom_toTopOf="@+id/vaca"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+        app:layout_constraintStart_toEndOf="@+id/leao"
+        app:layout_constraintTop_toBottomOf="@+id/gato" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/vaca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/vaca"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+        app:layout_constraintStart_toEndOf="@+id/ovelha"
+        app:layout_constraintTop_toBottomOf="@+id/macaco" />
 
     <ImageView
         android:id="@+id/imageView13"

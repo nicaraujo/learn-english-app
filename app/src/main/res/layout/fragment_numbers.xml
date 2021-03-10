@@ -8,46 +8,46 @@
     tools:context=".ui.main.NumbersFragment">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/cinco"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_marginBottom="16dp"
         android:scaleType="centerInside"
         android:src="@drawable/cinco"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/seis"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/tres" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/dois"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_marginTop="16dp"
         android:scaleType="centerInside"
         android:src="@drawable/dois"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/quatro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/um"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/quatro"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:scaleType="centerInside"
         android:src="@drawable/quatro"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintBottom_toTopOf="@+id/seis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintStart_toEndOf="@+id/tres"
+        app:layout_constraintTop_toBottomOf="@+id/dois" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/seis"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_marginBottom="16dp"
@@ -56,30 +56,30 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintStart_toEndOf="@+id/cinco"
+        app:layout_constraintTop_toBottomOf="@+id/quatro" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/tres"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:scaleType="centerInside"
         android:src="@drawable/tres"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/cinco"
+        app:layout_constraintEnd_toStartOf="@+id/quatro"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/um" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/um"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_marginTop="16dp"
         android:scaleType="centerInside"
         android:src="@drawable/um"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/tres"
+        app:layout_constraintEnd_toStartOf="@+id/dois"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
